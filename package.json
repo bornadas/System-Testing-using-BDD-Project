@@ -1,0 +1,23 @@
+{
+  "name": "system-testing-using-bdd-project",
+  "version": "1.0.0",
+  "description": "System testing for website using TDD, BDD, Selenium webdriver, Cucumber ,Gherkin, JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bornadas/System-Testing-using-BDD-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bornadas/System-Testing-using-BDD-Project/issues"
+  },
+  "homepage": "https://github.com/bornadas/System-Testing-using-BDD-Project#readme",
+  "keywords": [],
+  "dependencies": {
+    "updated-selenium-cucumber-js": "^1.8.3-rc4"
+  }
+}
