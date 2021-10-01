@@ -1,0 +1,87 @@
+[
+  {
+    "description": "  As a user, I want to be able to go to different categories of goods so that I can see which goods are included in a category",
+    "elements": [
+      {
+        "id": "willys-navigate-to-sortiment;willys-searching-for-sortiment",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Willys searching for sortiment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 4706279300
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viweing-sortiment.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on MENY button",
+            "result": {
+              "status": "passed",
+              "duration": 89896000
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viweing-sortiment.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see sortiment",
+            "result": {
+              "status": "passed",
+              "duration": 468125900
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viweing-sortiment.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the result should contain at least one sortiments",
+            "result": {
+              "status": "passed",
+              "duration": 243540400
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viweing-sortiment.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 295102700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "willys-navigate-to-sortiment",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Willys navigate to SORTIMENT",
+    "tags": [],
+    "uri": "C:/Users/meena/OneDrive/Desktop/Project3/System-Testing-using-BDD-Project/features/viewing-sortiment.feature"
+  }
+]

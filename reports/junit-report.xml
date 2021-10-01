@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="willys-navigate-to-sortiment;willys-searching-for-sortiment" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/meena/OneDrive/Desktop/Project3/System-Testing-using-BDD-Project/features/viewing-sortiment.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="4.7062793">
+        </testcase>
+        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="0.089896">
+        </testcase>
+        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="0.4681259">
+        </testcase>
+        <testcase name="And the result should contain at least one sortiments" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="0.2435404">
+        </testcase>
+    </testsuite>
+</testsuites>
