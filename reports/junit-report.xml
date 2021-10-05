@@ -1,17 +1,582 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="willys-navigate-to-sortiment;willys-searching-for-sortiment" tests="4" failures="0" skipped="0">
+    <testsuite name="store-categories;adding-the-products-in-cart-from-veckans-varor" tests="7" failures="0" skipped="5">
         <properties>
-            <property name="URI" value="C:/Users/meena/OneDrive/Desktop/Project3/System-Testing-using-BDD-Project/features/viewing-sortiment.feature">
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/background.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="4.7062793">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="store-categories;adding-the-products-in-cart-from-veckans-varor" time="2.5292661">
         </testcase>
-        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="0.089896">
+        <testcase name="And that I accepted the standard cookie policy" classname="store-categories;adding-the-products-in-cart-from-veckans-varor" time="6.7762044">
         </testcase>
-        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="0.4681259">
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="store-categories;adding-the-products-in-cart-from-veckans-varor">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="And the result should contain at least one sortiments" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="0.2435404">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="store-categories;adding-the-products-in-cart-from-veckans-varor">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="store-categories;adding-the-products-in-cart-from-veckans-varor">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the last product from veckans varor" classname="store-categories;adding-the-products-in-cart-from-veckans-varor">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="store-categories;adding-the-products-in-cart-from-veckans-varor">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="6" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature2.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="1.6744736">
+        </testcase>
+        <testcase name="When I enter &quot;Rosor&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I press enter" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on 1 search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="willys-search-for-product-of-interest;viewing-product-in-sortiments-for-getting-more-information-about-the-product-of-interest" tests="3" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature2.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the &quot;https://www.willys.se/sortiment/blommor-och-tradgard/blommor&quot;" classname="willys-search-for-product-of-interest;viewing-product-in-sortiments-for-getting-more-information-about-the-product-of-interest" time="2.4844233">
+        </testcase>
+        <testcase name="When I click on the product" classname="willys-search-for-product-of-interest;viewing-product-in-sortiments-for-getting-more-information-about-the-product-of-interest">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get more information about that product" classname="willys-search-for-product-of-interest;viewing-product-in-sortiments-for-getting-more-information-about-the-product-of-interest">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" tests="4" failures="0" skipped="3">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature3.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the &quot;https://www.willys.se/produkt/Tulpan-7-pack-100377744_ST&quot;" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="1.9768889">
+        </testcase>
+        <testcase name="When the product is shown on the screen" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the product" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the product should be added to the shopping cart" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="add-and-increase-product-quantity-in-the-shopping-cart;add-several-copies-of-a-product" tests="3" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature3.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the &quot;https://www.willys.se/produkt/Tulpan-7-pack-100377744_ST&quot;" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-several-copies-of-a-product" time="1.8474476">
+        </testcase>
+        <testcase name="When I click on + button to increase quantity" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-several-copies-of-a-product">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the product quantity should increase" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-several-copies-of-a-product">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" tests="8" failures="0" skipped="6">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature4.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="1.8361422">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="6.3727528">
+        </testcase>
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the another product from veckans varor" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should be able to see the products which i added in the cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity" tests="9" failures="0" skipped="7">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature5.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity" time="2.2427174">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity" time="6.2222148">
+        </testcase>
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the another product from veckans varor" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on cart" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to increase the quantity" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the total cost should increase" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-should-be-increased-after-increasing-the-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity" tests="9" failures="0" skipped="7">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature5.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity" time="1.773025">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity" time="6.4171837">
+        </testcase>
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the another product from veckans varor" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Given that I am on &quot;https://www.willys.se/varukorg&quot;" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on - button to decrease the quantity" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the total cost should decrease" classname="count-total-price-in-shpping-cart;the-total-price-at-the-cart-wagon-is-decreasing-when-i-am-reducing-the-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" tests="9" failures="0" skipped="7">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature6.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="1.7390835">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="6.3637935">
+        </testcase>
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the another product from veckans varor" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on cart button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to increase the quantity" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the product quantity should increase" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" tests="8" failures="0" skipped="6">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature6.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="1.7707989">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="6.7142044">
+        </testcase>
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the another product from veckans varor" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on - button to decrease the quantity" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the product quantity should decrease" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="remove-item-from-shopping-cart;remove-item-from-shopping-cart" tests="9" failures="0" skipped="7">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature7.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="1.717533">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="6.2566444">
+        </testcase>
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the another product from veckans varor" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on cart" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on - button of a product to remove it" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the product should be removed from the cart" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="empty-entire-shopping-cart;empty-my-shopping-cart" tests="9" failures="0" skipped="7">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature8.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="1.6279407">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="6.3447588">
+        </testcase>
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="empty-entire-shopping-cart;empty-my-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-entire-shopping-cart;empty-my-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on + button to add the another product from veckans varor" classname="empty-entire-shopping-cart;empty-my-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then both the first and the last product should be in the cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I click on the shopping cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on töm varukorg button" classname="empty-entire-shopping-cart;empty-my-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then The cart should be empty" classname="empty-entire-shopping-cart;empty-my-shopping-cart">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature9.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="2.1951714">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="6.192464">
+        </testcase>
+        <testcase name="When I click on hamburger sign" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;41717&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature9.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="1.6183462">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="6.6242">
+        </testcase>
+        <testcase name="When I click on hamburger sign" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;41831&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature9.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="1.7365727">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="6.5933591">
+        </testcase>
+        <testcase name="When I click on hamburger sign" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;41525&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-address" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature9.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-address" time="1.6728931">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-address" time="6.4507215">
+        </testcase>
+        <testcase name="When I click on hamburger sign" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;Västra Frölunda&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-address" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature9.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-address" time="1.689388">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-address" time="6.6573858">
+        </testcase>
+        <testcase name="When I click on hamburger sign" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;Gamlestaden&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-address" tests="6" failures="0" skipped="4">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/feature9.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-address" time="1.6329828">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-address" time="6.3163756">
+        </testcase>
+        <testcase name="When I click on hamburger sign" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I enter &quot;Majorna&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-address">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="willys-navigate-to-sortiment;willys-searching-for-one-sortiment" tests="4" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/viewing-sortiment.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-one-sortiment" time="1.7917987">
+        </testcase>
+        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-one-sortiment" time="0.0773507">
+        </testcase>
+        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-one-sortiment" time="0.0334523">
+        </testcase>
+        <testcase name="And the result should contain at least one sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-one-sortiment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="willys-navigate-to-sortiment;willys-searching-for-multiple-sortiments" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/viewing-sortiment.feature">
+            </property>
+        </properties>
+        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-multiple-sortiments" time="0.7284192">
+            <failure message="NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.left-menu-btn&quot;}">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.left-menu-btn&quot;}
+  (Session info: chrome=94.0.4606.61)
+  (Driver info: chromedriver=94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}),platform=Windows NT 10.0.19042 x86_64)
+    at Object.checkLegacyResponse (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\error.js:546:15)
+    at parseHttpResponse (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\http.js:441:30
+    at runMicrotasks (&lt;anonymous&gt;)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+From: Task: WebDriver.findElement(By(css selector, .left-menu-btn))
+    at thenableWebDriverProxy.schedule (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\step-definitions\viewing-sortiment.js:14:19)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+From: Task: WebElement.click()
+    at thenableWebDriverProxy.schedule (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at WebElementPromise.schedule_ (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\webdriver.js:2010:25)
+    at WebElementPromise.click (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\node_modules\selenium-webdriver\lib\webdriver.js:2092:17)
+    at createWorld.&lt;anonymous&gt; (D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\step-definitions\viewing-sortiment.js:14:57)
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)</failure>
+        </testcase>
+        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-multiple-sortiments">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on Skafferi" classname="willys-navigate-to-sortiment;willys-searching-for-multiple-sortiments">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I should see different categories" classname="willys-navigate-to-sortiment;willys-searching-for-multiple-sortiments">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
