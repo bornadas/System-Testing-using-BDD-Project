@@ -4,7 +4,17 @@
   "description": "System testing for website using TDD, BDD, Selenium webdriver, Cucumber ,Gherkin, JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/updated-selenium-cucumber-js/index.js"
+    "test": "node ./node_modules/updated-selenium-cucumber-js/index.js",
+    "test-viewing-sortiment": "node node_modules/updated-selenium-cucumber-js/index -f features/viewing-sortiment.feature",
+    "test-add-product-in-cart": "node node_modules/updated-selenium-cucumber-js/index -f features/add-product-in-cart.feature",
+    "test-change-quantity": "node node_modules/updated-selenium-cucumber-js/index -f features/change-quantity.feature",
+    "test-count-price": "node node_modules/updated-selenium-cucumber-js/index -f features/count-price.feature",
+    "test-empty-entire-cart": "node node_modules/updated-selenium-cucumber-js/index -f features/empty-entire-cart.feature",
+    "test-remove-product-from-cart": "node node_modules/updated-selenium-cucumber-js/index -f features/remove-product-from-cart.feature",
+    "test-search-butik": "node node_modules/updated-selenium-cucumber-js/index -f features/search-butik.feature",
+    "test-search-product": "node node_modules/updated-selenium-cucumber-js/index -f features/search-product.feature",
+    "test-viewing-cart": "node node_modules/updated-selenium-cucumber-js/index -f features/viewing-cart.feature"
+    
   },
   "repository": {
     "type": "git",
