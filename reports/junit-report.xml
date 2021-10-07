@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="willys-navigate-to-sortiment;willys-searching-for-sortiment" tests="8" failures="0" skipped="0">
+    <testsuite name="empty-entire-shopping-cart;empty-my-shopping-cart" tests="8" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\meena\OneDrive\Desktop\Project3\System-Testing-using-BDD-Project\features\viewing-sortiment.feature">
+            <property name="URI" value="C:\Users\User\Desktop\System-Testing-using-BDD-Project\features\empty-entire-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="1.9790382">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="4.1355451">
         </testcase>
-        <testcase name="And that I accepted the standard cookie policy" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="6.5086556">
+        <testcase name="When that I accepted the standard cookie policy" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="7.5441671">
         </testcase>
-        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.1658559">
+        <testcase name="And I click on + button to add the first product from veckans varor" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="0.1726202">
         </testcase>
-        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.0468227">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="6.7578461">
         </testcase>
-        <testcase name="And I click on Barn" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="7.3282171">
+        <testcase name="And I click on + button to add more products from veckans varor" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="15.8162398">
         </testcase>
-        <testcase name="Then I should get all the categories" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.0216193">
+        <testcase name="When I click on the shopping cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.3287664">
         </testcase>
-        <testcase name="And I click on grot" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="0.1516427">
+        <testcase name="And I click on töm varukorg button" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.4230088">
         </testcase>
-        <testcase name="And the result should contain at least one sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="1.136403">
+        <testcase name="Then The cart should be empty" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.3907223">
         </testcase>
     </testsuite>
 </testsuites>

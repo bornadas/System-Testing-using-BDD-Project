@@ -8,8 +8,7 @@ Feature: Empty entire shopping cart
     When that I accepted the standard cookie policy
     And I click on + button to add the first product from veckans varor
     And that we have been through the initial where to deliver popup
-    And I click on + button to add the another product from veckans varor
-    Then both the first and the last product should be in the cart
+    And I click on + button to add more products from veckans varor
 
   Scenario: Empty my shopping cart
 
