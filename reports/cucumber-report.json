@@ -1,12 +1,12 @@
 [
   {
-    "description": "  As a user, I want to be able to click on an product\n  to get more information about it so that I\n  can determine if it is of interest to me.",
+    "description": "  As a user, I want the shopping cart to count correctly so that I can see the total price before I choose to shop.",
     "elements": [
       {
-        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
+        "id": "count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart",
         "keyword": "Scenario",
-        "line": 18,
-        "name": "Searching product in search bar for getting more information about the product of interest",
+        "line": 7,
+        "name": "Count total price correctly in shopping cart",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2817013900
+              "duration": 2707200900
             },
-            "line": 7,
+            "line": 4,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:9"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,189 +27,76 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 7067374400
+              "duration": 7056276600
             },
-            "line": 8,
+            "line": 5,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I search for \"rosor\" in the search box",
-            "result": {
-              "status": "passed",
-              "duration": 5248730600
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I press ENTER",
+            "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 5066623400
+              "duration": 15365140500
             },
-            "line": 12,
+            "line": 6,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
             }
           },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should get some search result",
-            "result": {
-              "status": "passed",
-              "duration": 1279092400
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on first search result",
-            "result": {
-              "status": "passed",
-              "duration": 991201800
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I should get more information about that product",
-            "result": {
-              "status": "passed",
-              "duration": 6342691600
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 4249850300
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
-        "keyword": "Scenario",
-        "line": 19,
-        "name": "Searching product in search bar for getting more information about the product of interest",
-        "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that I am on \"https://www.willys.se\"",
+            "name": "that I am on the Fruit category page",
             "result": {
               "status": "passed",
-              "duration": 2210128400
-            },
-            "line": 7,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "that I accepted the standard cookie policy",
-            "result": {
-              "status": "passed",
-              "duration": 7080236600
+              "duration": 5570413300
             },
             "line": 8,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:13"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:3"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I search for \"godis\" in the search box",
+            "name": "I put a random number of each fruit that has price per piece in the cart",
             "result": {
               "status": "passed",
-              "duration": 5249941800
+              "duration": 6224858200
             },
-            "line": 11,
+            "line": 9,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press ENTER",
-            "result": {
-              "status": "passed",
-              "duration": 5074850400
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:18"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I should get some search result",
+            "name": "the mini-cart should show the correct total quantity of products",
             "result": {
               "status": "passed",
-              "duration": 19398900
+              "duration": 22371300
             },
-            "line": 13,
+            "line": 10,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:50"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on first search result",
+            "name": "the mini-cart should show correct total price",
             "result": {
               "status": "passed",
-              "duration": 478579100
+              "duration": 21027900
             },
-            "line": 14,
+            "line": 11,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I should get more information about that product",
-            "result": {
-              "status": "passed",
-              "duration": 5302919400
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:26"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:62"
             }
           },
           {
@@ -217,237 +104,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4222353800
+              "duration": 4260638500
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
-        "keyword": "Scenario",
-        "line": 20,
-        "name": "Searching product in search bar for getting more information about the product of interest",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that I am on \"https://www.willys.se\"",
-            "result": {
-              "status": "passed",
-              "duration": 2409553500
-            },
-            "line": 7,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "that I accepted the standard cookie policy",
-            "result": {
-              "status": "passed",
-              "duration": 7026026700
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I search for \"banan\" in the search box",
-            "result": {
-              "status": "passed",
-              "duration": 5209199400
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press ENTER",
-            "result": {
-              "status": "passed",
-              "duration": 5064174100
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should get some search result",
-            "result": {
-              "status": "passed",
-              "duration": 16527600
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on first search result",
-            "result": {
-              "status": "passed",
-              "duration": 500751200
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I should get more information about that product",
-            "result": {
-              "status": "passed",
-              "duration": 5230468100
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 4302775500
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
-        "keyword": "Scenario",
-        "line": 21,
-        "name": "Searching product in search bar for getting more information about the product of interest",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that I am on \"https://www.willys.se\"",
-            "result": {
-              "status": "passed",
-              "duration": 2417978400
-            },
-            "line": 7,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "that I accepted the standard cookie policy",
-            "result": {
-              "status": "passed",
-              "duration": 7249798600
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:13"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I search for \"smör\" in the search box",
-            "result": {
-              "status": "passed",
-              "duration": 5208041600
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I press ENTER",
-            "result": {
-              "status": "passed",
-              "duration": 5075194300
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should get some search result",
-            "result": {
-              "status": "passed",
-              "duration": 35850000
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on first search result",
-            "result": {
-              "status": "passed",
-              "duration": 589227800
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I should get more information about that product",
-            "result": {
-              "status": "passed",
-              "duration": 5365666500
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 4300444300
-            },
-            "hidden": true,
-            "match": {
-              "location": "C:\\Users\\x\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -455,11 +116,11 @@
         "type": "scenario"
       }
     ],
-    "id": "willys-search-for-product-of-interest",
+    "id": "count-total-price-in-shopping-cart",
     "keyword": "Feature",
     "line": 1,
-    "name": "Willys search for product of interest",
+    "name": "Count total price in shopping cart",
     "tags": [],
-    "uri": "C:\\Users\\x\\System-Testing-using-BDD-Project\\features\\search-product.feature"
+    "uri": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\features\\count-price.feature"
   }
 ]

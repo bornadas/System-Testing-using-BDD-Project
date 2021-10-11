@@ -1,83 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
+    <testsuite name="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\x\System-Testing-using-BDD-Project\features\search-product.feature">
+            <property name="URI" value="C:\Users\Lotta\Documents\GitHub\System-Testing-using-BDD-Project\features\count-price.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="2.8170139">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="2.7072009">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="7.0673744">
+        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="7.0562766">
         </testcase>
-        <testcase name="When I search for &quot;rosor&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.2487306">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="15.3651405">
         </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0666234">
+        <testcase name="Given that I am on the Fruit category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="5.5704133">
         </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="1.2790924">
+        <testcase name="When I put a random number of each fruit that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.2248582">
         </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.9912018">
+        <testcase name="Then the mini-cart should show the correct total quantity of products" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0223713">
         </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.3426916">
-        </testcase>
-    </testsuite>
-    <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\x\System-Testing-using-BDD-Project\features\search-product.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="2.2101284">
-        </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="7.0802366">
-        </testcase>
-        <testcase name="When I search for &quot;godis&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.2499418">
-        </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0748504">
-        </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.0193989">
-        </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.4785791">
-        </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.3029194">
-        </testcase>
-    </testsuite>
-    <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\x\System-Testing-using-BDD-Project\features\search-product.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="2.4095535">
-        </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="7.0260267">
-        </testcase>
-        <testcase name="When I search for &quot;banan&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.2091994">
-        </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0641741">
-        </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.0165276">
-        </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.5007512">
-        </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.2304681">
-        </testcase>
-    </testsuite>
-    <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\x\System-Testing-using-BDD-Project\features\search-product.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="2.4179784">
-        </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="7.2497986">
-        </testcase>
-        <testcase name="When I search for &quot;smör&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.2080416">
-        </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0751943">
-        </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.03585">
-        </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.5892278">
-        </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.3656665">
+        <testcase name="And the mini-cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0210279">
         </testcase>
     </testsuite>
 </testsuites>
