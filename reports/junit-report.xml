@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" tests="7" failures="0" skipped="0">
+    <testsuite name="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\Lotta\Documents\GitHub\System-Testing-using-BDD-Project\features\count-price.feature">
+            <property name="URI" value="D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\features\add-product-in-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="2.7072009">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="2.5877295">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="7.0562766">
+        <testcase name="When that I accepted the standard cookie policy" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="6.6755582">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="15.3651405">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="15.3941041">
         </testcase>
-        <testcase name="Given that I am on the Fruit category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="5.5704133">
+        <testcase name="Then I click on + button to add the first product from veckans varor" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="0.3890454">
         </testcase>
-        <testcase name="When I put a random number of each fruit that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.2248582">
-        </testcase>
-        <testcase name="Then the mini-cart should show the correct total quantity of products" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0223713">
-        </testcase>
-        <testcase name="And the mini-cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0210279">
+        <testcase name="And I click on + button to add more products from veckans varor" classname="add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="15.2904673">
         </testcase>
     </testsuite>
 </testsuites>

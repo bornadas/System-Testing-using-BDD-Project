@@ -1,12 +1,12 @@
 [
   {
-    "description": "  As a user, I want the shopping cart to count correctly so that I can see the total price before I choose to shop.",
+    "description": "  User should be able to add 1 product as well as increase product quantity in the shopping cart so he can buy it.",
     "elements": [
       {
-        "id": "count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart",
+        "id": "add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "Count total price correctly in shopping cart",
+        "line": 9,
+        "name": "Add 1st product to the shopping cart",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2707200900
+              "duration": 2587729500
             },
-            "line": 4,
+            "line": 5,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 7056276600
+              "duration": 6675558200
             },
-            "line": 5,
+            "line": 6,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
@@ -40,63 +40,37 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15365140500
+              "duration": 15394104100
             },
-            "line": 6,
+            "line": 7,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that I am on the Fruit category page",
-            "result": {
-              "status": "passed",
-              "duration": 5570413300
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:3"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I put a random number of each fruit that has price per piece in the cart",
-            "result": {
-              "status": "passed",
-              "duration": 6224858200
-            },
-            "line": 9,
-            "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:18"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the mini-cart should show the correct total quantity of products",
+            "name": "I click on + button to add the first product from veckans varor",
             "result": {
               "status": "passed",
-              "duration": 22371300
+              "duration": 389045400
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:50"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:8"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the mini-cart should show correct total price",
+            "name": "I click on + button to add more products from veckans varor",
             "result": {
               "status": "passed",
-              "duration": 21027900
+              "duration": 15290467300
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:62"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:16"
             }
           },
           {
@@ -104,11 +78,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4260638500
+              "duration": 280188100
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -116,11 +90,11 @@
         "type": "scenario"
       }
     ],
-    "id": "count-total-price-in-shopping-cart",
+    "id": "add-and-increase-product-quantity-in-the-shopping-cart",
     "keyword": "Feature",
     "line": 1,
-    "name": "Count total price in shopping cart",
+    "name": "Add and increase product quantity in the shopping cart",
     "tags": [],
-    "uri": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\features\\count-price.feature"
+    "uri": "D:\\Testing 1\\Programming for tester\\Inlamning 3\\System-Testing-using-BDD-Project\\features\\add-product-in-cart.feature"
   }
 ]
