@@ -1,25 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="willys-navigate-to-sortiment;willys-searching-for-sortiment" tests="8" failures="0" skipped="0">
+    <testsuite name="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\meena\OneDrive\Desktop\Project3\System-Testing-using-BDD-Project\features\viewing-sortiment.feature">
+            <property name="URI" value="D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\features\count-price.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="2.2704828">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="2.2014264">
         </testcase>
-        <testcase name="And that I accepted the standard cookie policy" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="6.4522974">
+        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.7259427">
         </testcase>
-        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.1721711">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="15.2908948">
         </testcase>
-        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.0676758">
+        <testcase name="Given that I am on the Fruit category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="13.041024">
         </testcase>
-        <testcase name="And I click on Barn" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="7.1215656">
+        <testcase name="When I put a random number of each fruit that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="22.9845859">
         </testcase>
-        <testcase name="Then I should get all the categories" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.0393543">
+        <testcase name="Then the mini-cart should show the correct total quantity of products" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="5.0300871">
         </testcase>
-        <testcase name="And I click on grot" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.2279039">
-        </testcase>
-        <testcase name="And the result should contain at least one sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.5276544">
+        <testcase name="And the mini-cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="5.4092274">
         </testcase>
     </testsuite>
 </testsuites>

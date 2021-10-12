@@ -66,7 +66,7 @@ module.exports = function () {
     await waitAWhile();
   });
   this.Then(/^the mini\-cart should show correct total price$/, async function () {
-    await driver.findElement(By.css('[href="https://www.willys.se/varukorg"]')).click();
+    await driver.findElement(By.css('.ax-cart-mini')).click();
     // Calculate total price
     let totalPrice = 0;
     for (let { quantity, price, pricePer } of boughtProducts) {

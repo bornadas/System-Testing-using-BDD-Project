@@ -1,12 +1,12 @@
 [
   {
-    "description": "  As a user, I want to be able to go to different categories of goods so that I can see which goods are included in a category",
+    "description": "  As a user, I want the shopping cart to count correctly so that I can see the total price before I choose to shop.",
     "elements": [
       {
-        "id": "willys-navigate-to-sortiment;willys-searching-for-sortiment",
+        "id": "count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Willys searching for sortiment",
+        "line": 7,
+        "name": "Count total price correctly in shopping cart",
         "steps": [
           {
             "arguments": [],
@@ -14,102 +14,89 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2270482800
+              "duration": 2201426400
             },
-            "line": 5,
+            "line": 4,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that I accepted the standard cookie policy",
-            "result": {
-              "status": "passed",
-              "duration": 6452297400
-            },
-            "line": 6,
-            "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click on MENY button",
+            "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 10172171100
+              "duration": 6725942700
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 15290894800
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on the Fruit category page",
+            "result": {
+              "status": "passed",
+              "duration": 13041024000
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I put a random number of each fruit that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 22984585900
             },
             "line": 9,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:9"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:22"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "I can see sortiment",
+            "name": "the mini-cart should show the correct total quantity of products",
             "result": {
               "status": "passed",
-              "duration": 10067675800
+              "duration": 5030087100
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:16"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:55"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on Barn",
+            "name": "the mini-cart should show correct total price",
             "result": {
               "status": "passed",
-              "duration": 7121565600
+              "duration": 5409227400
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:25"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "I should get all the categories",
-            "result": {
-              "status": "passed",
-              "duration": 5039354300
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:31"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on grot",
-            "result": {
-              "status": "passed",
-              "duration": 10227903900
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:38"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the result should contain at least one sortiment",
-            "result": {
-              "status": "passed",
-              "duration": 5527654400
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:49"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:68"
             }
           },
           {
@@ -117,11 +104,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 380517400
+              "duration": 4248340600
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -129,11 +116,11 @@
         "type": "scenario"
       }
     ],
-    "id": "willys-navigate-to-sortiment",
+    "id": "count-total-price-in-shopping-cart",
     "keyword": "Feature",
     "line": 1,
-    "name": "Willys navigate to SORTIMENT",
+    "name": "Count total price in shopping cart",
     "tags": [],
-    "uri": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\features\\viewing-sortiment.feature"
+    "uri": "D:\\Testing 1\\Programming for tester\\Inlamning 3\\System-Testing-using-BDD-Project\\features\\count-price.feature"
   }
 ]
