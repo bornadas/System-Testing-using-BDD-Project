@@ -19,12 +19,16 @@ module.exports = function() {
     });
     this.Then(/^I should get some search result$/, async function() {
         await driver.wait(until.elementsLocated(by.css('.Grid_grid__1YmC6')), 10000);
+
     });
-    this.Then(/^I click on first search result$/, function() {
-        return driver.findElement(by.css(".Product_product-header__3sHfy")).click();
+    this.Then(/^I click on first search result$/, async function() {
+        await driver.findElement(by.css(".Product_product-header__3sHfy")).click();
+        await driver.executeScript('window.scrollTo(0,1000)');
+        await waitAWhile();
     });
     this.Then(/^I should get more information about that product$/, async function() {
         await driver.wait(until.elementsLocated(by.css('.ProductDetails_product-details__3R0V8')), 10000);
         await waitAWhile();
+        await driver.executeScript('window.scrollTo(0,1000)');
     });
 }

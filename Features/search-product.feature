@@ -14,8 +14,8 @@ Background:
     And I click on first search result
     And I should get more information about that product
     Examples:
-      | product | 
-      | "rosor" |
-      | "godis" |
-      | "banan" |
-      | "smör"  |
+      | product        | 
+      | "Apelsinjuice" |
+      | "godis"        |
+      | "banan"        |
+      | "smör"         |
