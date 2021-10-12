@@ -1,12 +1,12 @@
 [
   {
-    "description": "  User should be able to add 1 product as well as increase product quantity in the shopping cart so he can buy it.",
+    "description": "  As a user, I want to be able to empty my\n  entire shopping cart so that I can start over if\n  I regret what I put in it completely.",
     "elements": [
       {
-        "id": "add-and-increase-product-quantity-in-the-shopping-cart;add-1st-product-to-the-shopping-cart",
+        "id": "empty-entire-shopping-cart;empty-my-shopping-cart",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Add 1st product to the shopping cart",
+        "name": "Empty my shopping cart",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2587729500
+              "duration": 4483878200
             },
-            "line": 5,
+            "line": 6,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6675558200
+              "duration": 7040151300
             },
-            "line": 6,
+            "line": 7,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
@@ -40,37 +40,76 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15394104100
+              "duration": 15626442600
             },
-            "line": 7,
+            "line": 8,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "I click on + button to add the first product from veckans varor",
+            "keyword": "Given ",
+            "name": "that I am on the Fruit category page",
             "result": {
               "status": "passed",
-              "duration": 389045400
+              "duration": 6410510700
             },
             "line": 10,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:8"
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I put a random number of each fruit that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 10244592900
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 5278977300
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on + button to add more products from veckans varor",
+            "name": "I click on töm varukorg button",
             "result": {
               "status": "passed",
-              "duration": 15290467300
+              "duration": 5145529200
             },
-            "line": 11,
+            "line": 13,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:16"
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The cart should be empty",
+            "result": {
+              "status": "passed",
+              "duration": 5172889300
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:15"
             }
           },
           {
@@ -78,11 +117,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 280188100
+              "duration": 940337500
             },
             "hidden": true,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -90,11 +129,11 @@
         "type": "scenario"
       }
     ],
-    "id": "add-and-increase-product-quantity-in-the-shopping-cart",
+    "id": "empty-entire-shopping-cart",
     "keyword": "Feature",
     "line": 1,
-    "name": "Add and increase product quantity in the shopping cart",
+    "name": "Empty entire shopping cart",
     "tags": [],
-    "uri": "D:\\Testing 1\\Programming for tester\\Inlamning 3\\System-Testing-using-BDD-Project\\features\\add-product-in-cart.feature"
+    "uri": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\features\\empty-entire-cart.feature"
   }
 ]

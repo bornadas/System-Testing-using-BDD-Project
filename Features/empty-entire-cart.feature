@@ -5,10 +5,10 @@ Feature: Empty entire shopping cart
   Background:
     Given that I am on "https://www.willys.se"
     When that I accepted the standard cookie policy
-    And I click on + button to add the first product from veckans varor
     And that we have been through the initial where to deliver popup
-    And I click on + button to add more products from veckans varor
   Scenario: Empty my shopping cart
+    Given that I am on the Fruit category page
+    When I put a random number of each fruit that has price per piece in the cart
     When I click on the shopping cart
     And I click on töm varukorg button
     Then The cart should be empty
