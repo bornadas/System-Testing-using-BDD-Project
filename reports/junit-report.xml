@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="empty-entire-shopping-cart;empty-my-shopping-cart" tests="8" failures="0" skipped="0">
+    <testsuite name="willys-navigate-to-sortiment;willys-searching-for-sortiment" tests="8" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\User\Desktop\System-Testing-using-BDD-Project\features\empty-entire-cart.feature">
+            <property name="URI" value="C:\Users\meena\OneDrive\Desktop\Project3\System-Testing-using-BDD-Project\features\viewing-sortiment.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="4.4838782">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="2.2704828">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="7.0401513">
+        <testcase name="And that I accepted the standard cookie policy" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="6.4522974">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="15.6264426">
+        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.1721711">
         </testcase>
-        <testcase name="Given that I am on the Fruit category page" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="6.4105107">
+        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.0676758">
         </testcase>
-        <testcase name="When I put a random number of each fruit that has price per piece in the cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="10.2445929">
+        <testcase name="And I click on Barn" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="7.1215656">
         </testcase>
-        <testcase name="When I click on the shopping cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.2789773">
+        <testcase name="Then I should get all the categories" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.0393543">
         </testcase>
-        <testcase name="And I click on töm varukorg button" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.1455292">
+        <testcase name="And I click on grot" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.2279039">
         </testcase>
-        <testcase name="Then The cart should be empty" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.1728893">
+        <testcase name="And the result should contain at least one sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.5276544">
         </testcase>
     </testsuite>
 </testsuites>

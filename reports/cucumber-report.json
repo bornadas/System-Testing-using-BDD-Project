@@ -1,12 +1,12 @@
 [
   {
-    "description": "  As a user, I want to be able to empty my\n  entire shopping cart so that I can start over if\n  I regret what I put in it completely.",
+    "description": "  As a user, I want to be able to go to different categories of goods so that I can see which goods are included in a category",
     "elements": [
       {
-        "id": "empty-entire-shopping-cart;empty-my-shopping-cart",
+        "id": "willys-navigate-to-sortiment;willys-searching-for-sortiment",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Empty my shopping cart",
+        "line": 8,
+        "name": "Willys searching for sortiment",
         "steps": [
           {
             "arguments": [],
@@ -14,102 +14,102 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 4483878200
+              "duration": 2270482800
             },
-            "line": 6,
+            "line": 5,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
             "arguments": [],
-            "keyword": "When ",
+            "keyword": "And ",
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 7040151300
+              "duration": 6452297400
             },
-            "line": 7,
+            "line": 6,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that we have been through the initial where to deliver popup",
-            "result": {
-              "status": "passed",
-              "duration": 15626442600
-            },
-            "line": 8,
-            "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that I am on the Fruit category page",
-            "result": {
-              "status": "passed",
-              "duration": 6410510700
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:3"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I put a random number of each fruit that has price per piece in the cart",
+            "name": "I click on MENY button",
             "result": {
               "status": "passed",
-              "duration": 10244592900
+              "duration": 10172171100
             },
-            "line": 11,
+            "line": 9,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:18"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I click on the shopping cart",
-            "result": {
-              "status": "passed",
-              "duration": 5278977300
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:6"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on töm varukorg button",
-            "result": {
-              "status": "passed",
-              "duration": 5145529200
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:10"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:9"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "The cart should be empty",
+            "name": "I can see sortiment",
             "result": {
               "status": "passed",
-              "duration": 5172889300
+              "duration": 10067675800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on Barn",
+            "result": {
+              "status": "passed",
+              "duration": 7121565600
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get all the categories",
+            "result": {
+              "status": "passed",
+              "duration": 5039354300
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on grot",
+            "result": {
+              "status": "passed",
+              "duration": 10227903900
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the result should contain at least one sortiment",
+            "result": {
+              "status": "passed",
+              "duration": 5527654400
             },
             "line": 14,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:15"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:49"
             }
           },
           {
@@ -117,11 +117,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 940337500
+              "duration": 380517400
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -129,11 +129,11 @@
         "type": "scenario"
       }
     ],
-    "id": "empty-entire-shopping-cart",
+    "id": "willys-navigate-to-sortiment",
     "keyword": "Feature",
     "line": 1,
-    "name": "Empty entire shopping cart",
+    "name": "Willys navigate to SORTIMENT",
     "tags": [],
-    "uri": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\features\\empty-entire-cart.feature"
+    "uri": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\features\\viewing-sortiment.feature"
   }
 ]
