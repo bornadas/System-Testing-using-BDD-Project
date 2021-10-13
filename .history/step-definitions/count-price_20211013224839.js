@@ -6,10 +6,7 @@ module.exports = function () {
   let boughtProducts;
   this.Given(/^that I navigate to glass\-godis\-och\-snacks category page$/, async function () {
     // find glass-godis-och-snacks categories
-    await driver.wait(until.elementsLocated(by.css('a[href="/sortiment/glass-godis-och-snacks"]')), 10000);
     let glassGodisAndSnacks = await driver.findElement(By.css('a[href="/sortiment/glass-godis-och-snacks"]'));
-    await driver.executeScript('document.querySelector(\'a[href="/sortiment/glass-godis-och-snacks"]\').scrollIntoView()');
-    //browser.executeScript("arguments[0].scrollIntoView();", glassGodisAndSnacks.getWebElement());
     await glassGodisAndSnacks.click();
     //Find Choklad from glass-godis-och-snacks categories inside 
     await driver.wait(until.elementsLocated(by.css('a[href="/sortiment/glass-godis-och-snacks/choklad"]')), 10000);
@@ -19,7 +16,6 @@ module.exports = function () {
     let h2Text;
     while (h2Text !== 'Choklad') {
       h2Text = await (await driver.findElement(By.css('h2'))).getText();
-      await driver.sleep(100);
     }
   });
   this.When(/^I added random number of each product that has price per piece in the cart$/, async function () {

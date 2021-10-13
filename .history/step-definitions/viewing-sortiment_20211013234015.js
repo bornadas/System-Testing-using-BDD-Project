@@ -23,10 +23,8 @@ module.exports = function () {
     });
 
     this.Then(/^I click on Barn$/, async function () {
-        await driver.wait(until.elementsLocated(by.css('a[href="/sortiment/barn"]')), 10000);
-        let grabBarn = await driver.findElement(By.css('a[href="/sortiment/barn"]'));
+        await driver.findElement(By.css('a[href="/sortiment/barn"]')).click();
         await driver.executeScript('document.querySelector(\'a[href="/sortiment/barn"]\').scrollIntoView()');
-        await grabBarn.click();
         await waitAWhile();
     });
 

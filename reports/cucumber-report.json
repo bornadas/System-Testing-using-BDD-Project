@@ -1,5 +1,1508 @@
 [
   {
+    "description": "  As a user I want to be able to add 1 to several copies of an item in the shopping cart so I can buy it.",
+    "elements": [
+      {
+        "id": "add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Add 1st product to the shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 9332508900
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 8581386400
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 15520396000
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click on + button to add the first product from veckans varor",
+            "result": {
+              "status": "passed",
+              "duration": 859536200
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I added several copy of this product",
+            "result": {
+              "status": "passed",
+              "duration": 21311435400
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1583142800
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-one-to-several-product-copies-in-the-shopping-cart",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Add one to several product copies in the shopping cart",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/add-product-in-cart.feature"
+  },
+  {
+    "description": "  As a user, I want to be able to change the number of an item in the shopping cart so that I can buy more or less of it than I originally thought.",
+    "elements": [
+      {
+        "id": "changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Increase product quantity",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 10309593200
+            },
+            "line": 4,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6342107300
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 16106423000
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I navigate to glass-godis-och-snacks category page",
+            "result": {
+              "status": "passed",
+              "duration": 7342306100
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I added random number of each product that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4452034700
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on cart button",
+            "result": {
+              "status": "passed",
+              "duration": 5396285500
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the quantity should increase after clicking + button",
+            "result": {
+              "status": "passed",
+              "duration": 5342483000
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 668715000
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Decrease product quantity",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 11482196700
+            },
+            "line": 4,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6196924800
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 15929599400
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I navigate to glass-godis-och-snacks category page",
+            "result": {
+              "status": "passed",
+              "duration": 7132774100
+            },
+            "line": 15,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I added random number of each product that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 11632999200
+            },
+            "line": 16,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on cart button",
+            "result": {
+              "status": "passed",
+              "duration": 5431611300
+            },
+            "line": 17,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the quantity should decrease after clicking - button",
+            "result": {
+              "status": "passed",
+              "duration": 5238551500
+            },
+            "line": 18,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 770505800
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "changing-the-quantity-in-the-cart-to-increase-and-decrease",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Changing the quantity in the cart to increase and decrease",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/change-quantity.feature"
+  },
+  {
+    "description": "  As a user, I want the shopping cart to count correctly so that I can see the total price before I choose to shop.",
+    "elements": [
+      {
+        "id": "count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Count total price correctly in shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 6938105200
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 10146410400
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 16017891700
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I navigate to glass-godis-och-snacks category page",
+            "result": {
+              "status": "passed",
+              "duration": 7346846800
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I added random number of each product that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 6245341900
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the mini cart should show correct total price",
+            "result": {
+              "status": "passed",
+              "duration": 50634700
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:57"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 842032700
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "count-total-price-in-shopping-cart",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Count total price in shopping cart",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/count-price.feature"
+  },
+  {
+    "description": "  As a user, I want to be able to empty my\n  entire shopping cart so that I can start over if\n  I regret what I put in it completely.",
+    "elements": [
+      {
+        "id": "empty-entire-shopping-cart;empty-my-shopping-cart",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Empty my shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 7764259900
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 9652785100
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 15814272400
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I added some product in cart",
+            "result": {
+              "status": "passed",
+              "duration": 9973126400
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 5318032900
+            },
+            "line": 13,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on töm varukorg button",
+            "result": {
+              "status": "passed",
+              "duration": 5184541400
+            },
+            "line": 14,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "The cart should be empty",
+            "result": {
+              "status": "passed",
+              "duration": 5399113400
+            },
+            "line": 15,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 734129200
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "empty-entire-shopping-cart",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Empty entire shopping cart",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/empty-entire-cart.feature"
+  },
+  {
+    "description": "  As a user, I want to be able to remove an item\n  from the shopping cart so that I can regret\n  what I have put in there.",
+    "elements": [
+      {
+        "id": "remove-item-from-shopping-cart;remove-item-from-shopping-cart",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Remove item from shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 10750163600
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6266339700
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 15902403900
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I added some product in cart",
+            "result": {
+              "status": "passed",
+              "duration": 9877396000
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 5572699000
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the product should be removed after clicking - button",
+            "result": {
+              "status": "passed",
+              "duration": 5200439300
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\remove-product-from-cart.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 668327800
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "remove-item-from-shopping-cart",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Remove item from shopping cart",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/remove-product-from-cart.feature"
+  },
+  {
+    "description": "  As a user, I want to be able to search for butik so that I can find the nearest one to me.",
+    "elements": [
+      {
+        "id": "search-for-butik;searching-nearest-butik-with-pincode",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Searching nearest butik with pincode",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 10271581900
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 11348366700
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on hitta butik",
+            "result": {
+              "status": "passed",
+              "duration": 7597405900
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I search \"41717\" in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 5528182800
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the butik address",
+            "result": {
+              "status": "passed",
+              "duration": 21025000
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 695667800
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "search-for-butik;searching-nearest-butik-with-pincode",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Searching nearest butik with pincode",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 8133654500
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 9199598500
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on hitta butik",
+            "result": {
+              "status": "passed",
+              "duration": 7215887900
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I search \"41831\" in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 5311274500
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the butik address",
+            "result": {
+              "status": "passed",
+              "duration": 24342800
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 756937800
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "search-for-butik;searching-nearest-butik-with-pincode",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Searching nearest butik with pincode",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 7475592200
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 10619804800
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on hitta butik",
+            "result": {
+              "status": "passed",
+              "duration": 7307398600
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I search \"Gamlestaden\" in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 5306497000
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the butik address",
+            "result": {
+              "status": "passed",
+              "duration": 21233500
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 713027800
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "search-for-butik;searching-nearest-butik-with-pincode",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Searching nearest butik with pincode",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 7102495500
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 10741427000
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on hitta butik",
+            "result": {
+              "status": "passed",
+              "duration": 7179899100
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I search \"Majorna\" in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 5362762500
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get the butik address",
+            "result": {
+              "status": "passed",
+              "duration": 39640900
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-butik.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 681272600
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-for-butik",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Search for butik",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-butik.feature"
+  },
+  {
+    "description": "  As a user, I want to be able to click on an product\n  to get more information about it so that I\n  can determine if it is of interest to me.",
+    "elements": [
+      {
+        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Searching product in search bar for getting more information about the product of interest",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 6685816100
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 9702604700
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"Apelsinjuice\" in the search box",
+            "result": {
+              "status": "passed",
+              "duration": 7030510800
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press ENTER",
+            "result": {
+              "status": "passed",
+              "duration": 5321702000
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get some search result",
+            "result": {
+              "status": "passed",
+              "duration": 9982260800
+            },
+            "line": 13,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on first search result",
+            "result": {
+              "status": "passed",
+              "duration": 10886786100
+            },
+            "line": 14,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should get more information about that product",
+            "result": {
+              "status": "passed",
+              "duration": 5030617300
+            },
+            "line": 15,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 598097500
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Searching product in search bar for getting more information about the product of interest",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 5236539000
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 8521948700
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"godis\" in the search box",
+            "result": {
+              "status": "passed",
+              "duration": 5687112600
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press ENTER",
+            "result": {
+              "status": "passed",
+              "duration": 5084729700
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get some search result",
+            "result": {
+              "status": "passed",
+              "duration": 118336700
+            },
+            "line": 13,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on first search result",
+            "result": {
+              "status": "passed",
+              "duration": 6487669600
+            },
+            "line": 14,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should get more information about that product",
+            "result": {
+              "status": "passed",
+              "duration": 5025854000
+            },
+            "line": 15,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 683966000
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Searching product in search bar for getting more information about the product of interest",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 10684758800
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6280223200
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"banan\" in the search box",
+            "result": {
+              "status": "passed",
+              "duration": 5591097800
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press ENTER",
+            "result": {
+              "status": "passed",
+              "duration": 5095696100
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get some search result",
+            "result": {
+              "status": "passed",
+              "duration": 755088400
+            },
+            "line": 13,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on first search result",
+            "result": {
+              "status": "passed",
+              "duration": 6968593500
+            },
+            "line": 14,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should get more information about that product",
+            "result": {
+              "status": "passed",
+              "duration": 5033893800
+            },
+            "line": 15,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 755142700
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Searching product in search bar for getting more information about the product of interest",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 10268917300
+            },
+            "line": 7,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6363150600
+            },
+            "line": 8,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I search for \"smör\" in the search box",
+            "result": {
+              "status": "passed",
+              "duration": 5450545600
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I press ENTER",
+            "result": {
+              "status": "passed",
+              "duration": 5076889300
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get some search result",
+            "result": {
+              "status": "passed",
+              "duration": 68167900
+            },
+            "line": 13,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on first search result",
+            "result": {
+              "status": "passed",
+              "duration": 6281683700
+            },
+            "line": 14,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I should get more information about that product",
+            "result": {
+              "status": "passed",
+              "duration": 5020860700
+            },
+            "line": 15,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\search-product.js:29"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 787910500
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "willys-search-for-product-of-interest",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Willys search for product of interest",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-product.feature"
+  },
+  {
     "description": "  As a user, I want to be able to see my shopping cart and the goods I have put in it should then be there so that I can buy them.",
     "elements": [
       {
@@ -14,11 +1517,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 3114007400
+              "duration": 6985706300
             },
             "line": 5,
             "match": {
-              "location": "C:\\finalP3\\step-definitions\\common-background.js:6"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,11 +1530,11 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 7471395900
+              "duration": 9827223100
             },
             "line": 6,
             "match": {
-              "location": "C:\\finalP3\\step-definitions\\common-background.js:10"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
@@ -40,11 +1543,11 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15384250300
+              "duration": 16054939300
             },
             "line": 7,
             "match": {
-              "location": "C:\\finalP3\\step-definitions\\common-background.js:20"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
             }
           },
           {
@@ -53,11 +1556,11 @@
             "name": "I added some product in cart",
             "result": {
               "status": "passed",
-              "duration": 11157911700
+              "duration": 9551121900
             },
             "line": 10,
             "match": {
-              "location": "C:\\finalP3\\step-definitions\\empty-entire-cart.js:6"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:6"
             }
           },
           {
@@ -66,11 +1569,11 @@
             "name": "I click on cart",
             "result": {
               "status": "passed",
-              "duration": 6425575200
+              "duration": 5936578400
             },
             "line": 11,
             "match": {
-              "location": "C:\\finalP3\\step-definitions\\viewing-cart.js:8"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-cart.js:8"
             }
           },
           {
@@ -79,11 +1582,11 @@
             "name": "I should be able to see the products which i added in the cart",
             "result": {
               "status": "passed",
-              "duration": 5039410800
+              "duration": 5043693600
             },
             "line": 12,
             "match": {
-              "location": "C:\\finalP3\\step-definitions\\viewing-cart.js:14"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-cart.js:14"
             }
           },
           {
@@ -91,11 +1594,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4400067000
+              "duration": 712628300
             },
             "hidden": true,
             "match": {
-              "location": "C:\\finalP3\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -108,6 +1611,143 @@
     "line": 1,
     "name": "Viewing the added products in shopping cart",
     "tags": [],
-    "uri": "C:\\finalP3\\features\\viewing-cart.feature"
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/viewing-cart.feature"
+  },
+  {
+    "description": "  As a user, I want to be able to go to different categories of goods so that I can see which goods are included in a category",
+    "elements": [
+      {
+        "id": "willys-navigate-to-sortiment;willys-searching-for-sortiment",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Willys searching for sortiment",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 10832239700
+            },
+            "line": 5,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6326588000
+            },
+            "line": 6,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on MENY button",
+            "result": {
+              "status": "passed",
+              "duration": 10354238900
+            },
+            "line": 9,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I can see sortiment",
+            "result": {
+              "status": "passed",
+              "duration": 10058983400
+            },
+            "line": 10,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on Barn",
+            "result": {
+              "status": "passed",
+              "duration": 7885129800
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I should get all the categories",
+            "result": {
+              "status": "passed",
+              "duration": 5328284700
+            },
+            "line": 12,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on grot",
+            "result": {
+              "status": "passed",
+              "duration": 10511684300
+            },
+            "line": 13,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the result should contain at least one sortiment",
+            "result": {
+              "status": "passed",
+              "duration": 6296520900
+            },
+            "line": 14,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\viewing-sortiment.js:51"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 754484200
+            },
+            "hidden": true,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "willys-navigate-to-sortiment",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Willys navigate to SORTIMENT",
+    "tags": [],
+    "uri": "D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/viewing-sortiment.feature"
   }
 ]
