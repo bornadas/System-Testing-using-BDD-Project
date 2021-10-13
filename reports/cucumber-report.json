@@ -14,7 +14,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2625260100
+              "duration": 2831226300
             },
             "line": 4,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6898927400
+              "duration": 7159229000
             },
             "line": 5,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15398194500
+              "duration": 15362661700
             },
             "line": 6,
             "match": {
@@ -53,7 +53,7 @@
             "name": "that I navigate to glass-godis-och-snacks category page",
             "result": {
               "status": "passed",
-              "duration": 4172481100
+              "duration": 4800033600
             },
             "line": 8,
             "match": {
@@ -66,7 +66,7 @@
             "name": "I added random number of each product that has price per piece in the cart",
             "result": {
               "status": "passed",
-              "duration": 7089157100
+              "duration": 9062750700
             },
             "line": 9,
             "match": {
@@ -79,7 +79,7 @@
             "name": "the mini cart should show correct total price",
             "result": {
               "status": "passed",
-              "duration": 22076300
+              "duration": 22436800
             },
             "line": 10,
             "match": {
@@ -91,7 +91,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4247946700
+              "duration": 4373664400
             },
             "hidden": true,
             "match": {

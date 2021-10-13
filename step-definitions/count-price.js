@@ -6,13 +6,13 @@ module.exports = function () {
   let boughtProducts;
   this.Given(/^that I navigate to glass\-godis\-och\-snacks category page$/, async function () {
     // find glass-godis-och-snacks categories
-    let brodOchKakor = await driver.findElement(By.css('a[href="/sortiment/glass-godis-och-snacks"]'));
-    await brodOchKakor.click();
+    let glassGodisAndSnacks = await driver.findElement(By.css('a[href="/sortiment/glass-godis-och-snacks"]'));
+    await glassGodisAndSnacks.click();
     //Find Choklad from glass-godis-och-snacks categories inside 
     await driver.wait(until.elementsLocated(by.css('a[href="/sortiment/glass-godis-och-snacks/choklad"]')), 10000);
-    let fastFoodBrod = await driver.findElement(By.css('a[href="/sortiment/glass-godis-och-snacks/choklad"]'));
+    let choklad = await driver.findElement(By.css('a[href="/sortiment/glass-godis-och-snacks/choklad"]'));
     await driver.executeScript('document.querySelector(\'a[href="/sortiment/glass-godis-och-snacks/choklad"]\').scrollIntoView()');
-    await fastFoodBrod.click();
+    await choklad.click();
     let h2Text;
     while (h2Text !== 'Choklad') {
       h2Text = await (await driver.findElement(By.css('h2'))).getText();

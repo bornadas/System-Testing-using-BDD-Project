@@ -5,17 +5,17 @@
             <property name="URI" value="C:\Users\Lotta\Documents\GitHub\System-Testing-using-BDD-Project\features\count-price.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="2.6252601">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="2.8312263">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.8989274">
+        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="7.159229">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="15.3981945">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="15.3626617">
         </testcase>
-        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="4.1724811">
+        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="4.8000336">
         </testcase>
-        <testcase name="When I added random number of each product that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="7.0891571">
+        <testcase name="When I added random number of each product that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="9.0627507">
         </testcase>
-        <testcase name="Then the mini cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0220763">
+        <testcase name="Then the mini cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0224368">
         </testcase>
     </testsuite>
 </testsuites>
