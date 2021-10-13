@@ -5,7 +5,7 @@
       {
         "id": "count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart",
         "keyword": "Scenario",
-        "line": 7,
+        "line": 9,
         "name": "Count total price correctly in shopping cart",
         "steps": [
           {
@@ -14,11 +14,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2831226300
+              "duration": 2066183200
             },
-            "line": 4,
+            "line": 5,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 7159229000
+              "duration": 6677897100
             },
-            "line": 5,
+            "line": 6,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15362661700
+              "duration": 15343617500
             },
-            "line": 6,
+            "line": 7,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "that I navigate to glass-godis-och-snacks category page",
             "result": {
               "status": "passed",
-              "duration": 4800033600
+              "duration": 3415616700
             },
-            "line": 8,
+            "line": 10,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "I added random number of each product that has price per piece in the cart",
             "result": {
               "status": "passed",
-              "duration": 9062750700
+              "duration": 7199790900
             },
-            "line": 9,
+            "line": 11,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:21"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:21"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "the mini cart should show correct total price",
             "result": {
               "status": "passed",
-              "duration": 22436800
+              "duration": 32800500
             },
-            "line": 10,
+            "line": 12,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:53"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:53"
             }
           },
           {
@@ -91,11 +91,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4373664400
+              "duration": 4333887200
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -108,6 +108,6 @@
     "line": 1,
     "name": "Count total price in shopping cart",
     "tags": [],
-    "uri": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\features\\count-price.feature"
+    "uri": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\features\\count-price.feature"
   }
 ]
