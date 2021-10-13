@@ -1,12 +1,12 @@
 [
   {
-    "description": "  As a user, I want the shopping cart to count correctly so that I can see the total price before I choose to shop.",
+    "description": "  As a user I want to be able to add 1 to several copies of an item in the shopping cart so I can buy it.",
     "elements": [
       {
-        "id": "count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart",
+        "id": "add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Count total price correctly in shopping cart",
+        "name": "Add 1st product to the shopping cart",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2066183200
+              "duration": 2017519300
             },
             "line": 5,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6677897100
+              "duration": 6281717100
             },
             "line": 6,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
@@ -40,50 +40,37 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15343617500
+              "duration": 15285182100
             },
             "line": 7,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that I navigate to glass-godis-och-snacks category page",
-            "result": {
-              "status": "passed",
-              "duration": 3415616700
-            },
-            "line": 10,
-            "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "I added random number of each product that has price per piece in the cart",
-            "result": {
-              "status": "passed",
-              "duration": 7199790900
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:21"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the mini cart should show correct total price",
+            "name": "I click on + button to add the first product from veckans varor",
             "result": {
               "status": "passed",
-              "duration": 32800500
+              "duration": 405733200
             },
-            "line": 12,
+            "line": 10,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:53"
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I added several copy of this product",
+            "result": {
+              "status": "passed",
+              "duration": 33596413700
+            },
+            "line": 11,
+            "match": {
+              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:14"
             }
           },
           {
@@ -91,11 +78,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4333887200
+              "duration": 451281700
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -103,11 +90,11 @@
         "type": "scenario"
       }
     ],
-    "id": "count-total-price-in-shopping-cart",
+    "id": "add-one-to-several-product-copies-in-the-shopping-cart",
     "keyword": "Feature",
     "line": 1,
-    "name": "Count total price in shopping cart",
+    "name": "Add one to several product copies in the shopping cart",
     "tags": [],
-    "uri": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\features\\count-price.feature"
+    "uri": "D:\\Testing 1\\Programming for tester\\Inlamning 3\\System-Testing-using-BDD-Project\\features\\add-product-in-cart.feature"
   }
 ]

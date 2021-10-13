@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" tests="6" failures="0" skipped="0">
+    <testsuite name="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\meena\OneDrive\Desktop\Project3\System-Testing-using-BDD-Project\features\count-price.feature">
+            <property name="URI" value="D:\Testing 1\Programming for tester\Inlamning 3\System-Testing-using-BDD-Project\features\add-product-in-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="2.0661832">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="2.0175193">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.6778971">
+        <testcase name="When that I accepted the standard cookie policy" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="6.2817171">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="15.3436175">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="15.2851821">
         </testcase>
-        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="3.4156167">
+        <testcase name="Then I click on + button to add the first product from veckans varor" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="0.4057332">
         </testcase>
-        <testcase name="When I added random number of each product that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="7.1997909">
-        </testcase>
-        <testcase name="Then the mini cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0328005">
+        <testcase name="And I added several copy of this product" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="33.5964137">
         </testcase>
     </testsuite>
 </testsuites>
