@@ -6,13 +6,13 @@ Feature: Changing the quantity in the cart to increase and decrease
     And that we have been through the initial where to deliver popup
 
   Scenario: Increase product quantity
-    Given that I am on the Fruit category page
-    When I put a random number of each fruit that has price per piece in the cart
+    Given that I navigate to glass-godis-och-snacks category page
+    When I added random number of each product that has price per piece in the cart
     And I click on cart button
     Then the quantity should increase after clicking + button
 
   Scenario: Decrease product quantity
-    Given that I am on the Fruit category page
-    When I put a random number of each fruit that has price per piece in the cart
+    Given that I navigate to glass-godis-och-snacks category page
+    When I added random number of each product that has price per piece in the cart
     And I click on cart button
     Then the quantity should decrease after clicking - button

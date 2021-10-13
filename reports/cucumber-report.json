@@ -1,12 +1,12 @@
 [
   {
-    "description": "  As a user I want to be able to add 1 to several copies of an item in the shopping cart so I can buy it.",
+    "description": "  As a user, I want to be able to change the number of an item in the shopping cart so that I can buy more or less of it than I originally thought.",
     "elements": [
       {
-        "id": "add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart",
+        "id": "changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Add 1st product to the shopping cart",
+        "line": 8,
+        "name": "Increase product quantity",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 2017519300
+              "duration": 2158858000
             },
-            "line": 5,
+            "line": 4,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6281717100
+              "duration": 6681296800
             },
-            "line": 6,
+            "line": 5,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
             }
           },
           {
@@ -40,37 +40,63 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15285182100
+              "duration": 15330739300
             },
-            "line": 7,
+            "line": 6,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
             }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "I click on + button to add the first product from veckans varor",
+            "keyword": "Given ",
+            "name": "that I navigate to glass-godis-och-snacks category page",
             "result": {
               "status": "passed",
-              "duration": 405733200
+              "duration": 3253923000
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I added random number of each product that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2532688700
             },
             "line": 10,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:8"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:21"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I added several copy of this product",
+            "name": "I click on cart button",
             "result": {
               "status": "passed",
-              "duration": 33596413700
+              "duration": 5139880400
             },
             "line": 11,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\step-definitions\\add-product-in-cart.js:14"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the quantity should increase after clicking + button",
+            "result": {
+              "status": "passed",
+              "duration": 5185607900
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:13"
             }
           },
           {
@@ -78,11 +104,124 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 451281700
+              "duration": 409283400
             },
             "hidden": true,
             "match": {
-              "location": "3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Decrease product quantity",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 2096431800
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6640431000
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 15288886500
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I navigate to glass-godis-och-snacks category page",
+            "result": {
+              "status": "passed",
+              "duration": 3330117600
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I added random number of each product that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 6489718100
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on cart button",
+            "result": {
+              "status": "passed",
+              "duration": 5165075800
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:9"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the quantity should decrease after clicking - button",
+            "result": {
+              "status": "passed",
+              "duration": 5181184900
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\step-definitions\\change-quantity.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 460983400
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -90,11 +229,11 @@
         "type": "scenario"
       }
     ],
-    "id": "add-one-to-several-product-copies-in-the-shopping-cart",
+    "id": "changing-the-quantity-in-the-cart-to-increase-and-decrease",
     "keyword": "Feature",
     "line": 1,
-    "name": "Add one to several product copies in the shopping cart",
+    "name": "Changing the quantity in the cart to increase and decrease",
     "tags": [],
-    "uri": "D:\\Testing 1\\Programming for tester\\Inlamning 3\\System-Testing-using-BDD-Project\\features\\add-product-in-cart.feature"
+    "uri": "C:\\Users\\meena\\OneDrive\\Desktop\\Project3\\System-Testing-using-BDD-Project\\features\\change-quantity.feature"
   }
 ]
