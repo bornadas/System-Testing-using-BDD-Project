@@ -1,0 +1,113 @@
+[
+  {
+    "description": "  As a user, I want the shopping cart to count correctly so that I can see the total price before I choose to shop.",
+    "elements": [
+      {
+        "id": "count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Count total price correctly in shopping cart",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I am on \"https://www.willys.se\"",
+            "result": {
+              "status": "passed",
+              "duration": 2625260100
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "that I accepted the standard cookie policy",
+            "result": {
+              "status": "passed",
+              "duration": 6898927400
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that we have been through the initial where to deliver popup",
+            "result": {
+              "status": "passed",
+              "duration": 15398194500
+            },
+            "line": 6,
+            "match": {
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that I navigate to glass-godis-och-snacks category page",
+            "result": {
+              "status": "passed",
+              "duration": 4172481100
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I added random number of each product that has price per piece in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 7089157100
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:21"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the mini cart should show correct total price",
+            "result": {
+              "status": "passed",
+              "duration": 22076300
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\step-definitions\\count-price.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 4247946700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "count-total-price-in-shopping-cart",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Count total price in shopping cart",
+    "tags": [],
+    "uri": "C:\\Users\\Lotta\\Documents\\GitHub\\System-Testing-using-BDD-Project\\features\\count-price.feature"
+  }
+]
