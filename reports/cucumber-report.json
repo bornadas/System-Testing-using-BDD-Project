@@ -1,12 +1,12 @@
 [
   {
-    "description": "  As a user, I want to be able to empty my\n  entire shopping cart so that I can start over if\n  I regret what I put in it completely.",
+    "description": "  As a user, I want to be able to see my shopping cart and the goods I have put in it should then be there so that I can buy them.",
     "elements": [
       {
-        "id": "empty-entire-shopping-cart;empty-my-shopping-cart",
+        "id": "viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Empty my shopping cart",
+        "name": "To check if product is added in the cart",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 4405505200
+              "duration": 3114007400
             },
-            "line": 6,
+            "line": 5,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:6"
+              "location": "C:\\finalP3\\step-definitions\\common-background.js:6"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 7508259300
+              "duration": 7471395900
             },
-            "line": 7,
+            "line": 6,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:10"
+              "location": "C:\\finalP3\\step-definitions\\common-background.js:10"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15557707700
+              "duration": 15384250300
             },
-            "line": 8,
+            "line": 7,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\common-background.js:20"
+              "location": "C:\\finalP3\\step-definitions\\common-background.js:20"
             }
           },
           {
@@ -53,50 +53,37 @@
             "name": "I added some product in cart",
             "result": {
               "status": "passed",
-              "duration": 11602998600
+              "duration": 11157911700
             },
             "line": 10,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:6"
+              "location": "C:\\finalP3\\step-definitions\\empty-entire-cart.js:6"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on the shopping cart",
+            "name": "I click on cart",
             "result": {
               "status": "passed",
-              "duration": 5572317300
+              "duration": 6425575200
             },
             "line": 11,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:14"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on töm varukorg button",
-            "result": {
-              "status": "passed",
-              "duration": 5278464600
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:18"
+              "location": "C:\\finalP3\\step-definitions\\viewing-cart.js:8"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "The cart should be empty",
+            "name": "I should be able to see the products which i added in the cart",
             "result": {
               "status": "passed",
-              "duration": 5272676000
+              "duration": 5039410800
             },
-            "line": 13,
+            "line": 12,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\step-definitions\\empty-entire-cart.js:23"
+              "location": "C:\\finalP3\\step-definitions\\viewing-cart.js:14"
             }
           },
           {
@@ -104,11 +91,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 4403819900
+              "duration": 4400067000
             },
             "hidden": true,
             "match": {
-              "location": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\finalP3\\node_modules\\updated-selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -116,11 +103,11 @@
         "type": "scenario"
       }
     ],
-    "id": "empty-entire-shopping-cart",
+    "id": "viewing-the-added-products-in-shopping-cart",
     "keyword": "Feature",
     "line": 1,
-    "name": "Empty entire shopping cart",
+    "name": "Viewing the added products in shopping cart",
     "tags": [],
-    "uri": "C:\\Users\\User\\Desktop\\System-Testing-using-BDD-Project\\features\\empty-entire-cart.feature"
+    "uri": "C:\\finalP3\\features\\viewing-cart.feature"
   }
 ]

@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="empty-entire-shopping-cart;empty-my-shopping-cart" tests="7" failures="0" skipped="0">
+    <testsuite name="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\User\Desktop\System-Testing-using-BDD-Project\features\empty-entire-cart.feature">
+            <property name="URI" value="C:\finalP3\features\viewing-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="4.4055052">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="3.1140074">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="7.5082593">
+        <testcase name="When that I accepted the standard cookie policy" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="7.4713959">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="15.5577077">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="15.3842503">
         </testcase>
-        <testcase name="When I added some product in cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="11.6029986">
+        <testcase name="When I added some product in cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="11.1579117">
         </testcase>
-        <testcase name="And I click on the shopping cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.5723173">
+        <testcase name="And I click on cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="6.4255752">
         </testcase>
-        <testcase name="And I click on töm varukorg button" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.2784646">
-        </testcase>
-        <testcase name="Then The cart should be empty" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.272676">
+        <testcase name="Then I should be able to see the products which i added in the cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="5.0394108">
         </testcase>
     </testsuite>
 </testsuites>
