@@ -1,43 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" tests="7" failures="0" skipped="0">
+    <testsuite name="empty-entire-shopping-cart;empty-my-shopping-cart" tests="7" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Users\meena\OneDrive\Desktop\Project3\System-Testing-using-BDD-Project\features\change-quantity.feature">
+            <property name="URI" value="C:\Users\User\Desktop\System-Testing-using-BDD-Project\features\empty-entire-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="2.158858">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="4.4055052">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="6.6812968">
+        <testcase name="When that I accepted the standard cookie policy" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="7.5082593">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="15.3307393">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="15.5577077">
         </testcase>
-        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="3.253923">
+        <testcase name="When I added some product in cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="11.6029986">
         </testcase>
-        <testcase name="When I added random number of each product that has price per piece in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="2.5326887">
+        <testcase name="And I click on the shopping cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.5723173">
         </testcase>
-        <testcase name="And I click on cart button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="5.1398804">
+        <testcase name="And I click on töm varukorg button" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.2784646">
         </testcase>
-        <testcase name="Then the quantity should increase after clicking + button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="5.1856079">
-        </testcase>
-    </testsuite>
-    <testsuite name="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="C:\Users\meena\OneDrive\Desktop\Project3\System-Testing-using-BDD-Project\features\change-quantity.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="2.0964318">
-        </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="6.640431">
-        </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="15.2888865">
-        </testcase>
-        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="3.3301176">
-        </testcase>
-        <testcase name="When I added random number of each product that has price per piece in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="6.4897181">
-        </testcase>
-        <testcase name="And I click on cart button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="5.1650758">
-        </testcase>
-        <testcase name="Then the quantity should decrease after clicking - button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="5.1811849">
+        <testcase name="Then The cart should be empty" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.272676">
         </testcase>
     </testsuite>
 </testsuites>
