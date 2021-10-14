@@ -14,7 +14,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 9332508900
+              "duration": 3590320700
             },
             "line": 5,
             "match": {
@@ -27,7 +27,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 8581386400
+              "duration": 6437516900
             },
             "line": 6,
             "match": {
@@ -40,7 +40,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15520396000
+              "duration": 15304932600
             },
             "line": 7,
             "match": {
@@ -53,7 +53,7 @@
             "name": "I click on + button to add the first product from veckans varor",
             "result": {
               "status": "passed",
-              "duration": 859536200
+              "duration": 359929700
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "I added several copy of this product",
             "result": {
               "status": "passed",
-              "duration": 21311435400
+              "duration": 5251452800
             },
             "line": 11,
             "match": {
@@ -78,7 +78,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1583142800
+              "duration": 4171877500
             },
             "hidden": true,
             "match": {
@@ -112,7 +112,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 10309593200
+              "duration": 1445283400
             },
             "line": 4,
             "match": {
@@ -125,7 +125,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6342107300
+              "duration": 6174739100
             },
             "line": 5,
             "match": {
@@ -138,7 +138,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 16106423000
+              "duration": 15276200300
             },
             "line": 6,
             "match": {
@@ -151,7 +151,7 @@
             "name": "that I navigate to glass-godis-och-snacks category page",
             "result": {
               "status": "passed",
-              "duration": 7342306100
+              "duration": 3515321300
             },
             "line": 9,
             "match": {
@@ -164,7 +164,7 @@
             "name": "I added random number of each product that has price per piece in the cart",
             "result": {
               "status": "passed",
-              "duration": 4452034700
+              "duration": 7094623100
             },
             "line": 10,
             "match": {
@@ -177,7 +177,7 @@
             "name": "I click on cart button",
             "result": {
               "status": "passed",
-              "duration": 5396285500
+              "duration": 5164178600
             },
             "line": 11,
             "match": {
@@ -190,7 +190,7 @@
             "name": "the quantity should increase after clicking + button",
             "result": {
               "status": "passed",
-              "duration": 5342483000
+              "duration": 5135658800
             },
             "line": 12,
             "match": {
@@ -202,7 +202,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 668715000
+              "duration": 4151336200
             },
             "hidden": true,
             "match": {
@@ -225,7 +225,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 11482196700
+              "duration": 1576828300
             },
             "line": 4,
             "match": {
@@ -238,7 +238,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6196924800
+              "duration": 6002718500
             },
             "line": 5,
             "match": {
@@ -251,7 +251,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15929599400
+              "duration": 15309276200
             },
             "line": 6,
             "match": {
@@ -264,7 +264,7 @@
             "name": "that I navigate to glass-godis-och-snacks category page",
             "result": {
               "status": "passed",
-              "duration": 7132774100
+              "duration": 3339744600
             },
             "line": 15,
             "match": {
@@ -277,7 +277,7 @@
             "name": "I added random number of each product that has price per piece in the cart",
             "result": {
               "status": "passed",
-              "duration": 11632999200
+              "duration": 6771863800
             },
             "line": 16,
             "match": {
@@ -290,7 +290,7 @@
             "name": "I click on cart button",
             "result": {
               "status": "passed",
-              "duration": 5431611300
+              "duration": 5165116800
             },
             "line": 17,
             "match": {
@@ -303,7 +303,7 @@
             "name": "the quantity should decrease after clicking - button",
             "result": {
               "status": "passed",
-              "duration": 5238551500
+              "duration": 5138805100
             },
             "line": 18,
             "match": {
@@ -315,7 +315,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 770505800
+              "duration": 4193658900
             },
             "hidden": true,
             "match": {
@@ -349,7 +349,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 6938105200
+              "duration": 1631590700
             },
             "line": 5,
             "match": {
@@ -362,7 +362,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 10146410400
+              "duration": 6285552200
             },
             "line": 6,
             "match": {
@@ -375,7 +375,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 16017891700
+              "duration": 15299359800
             },
             "line": 7,
             "match": {
@@ -388,7 +388,7 @@
             "name": "that I navigate to glass-godis-och-snacks category page",
             "result": {
               "status": "passed",
-              "duration": 7346846800
+              "duration": 3475785000
             },
             "line": 10,
             "match": {
@@ -401,7 +401,7 @@
             "name": "I added random number of each product that has price per piece in the cart",
             "result": {
               "status": "passed",
-              "duration": 6245341900
+              "duration": 2333783400
             },
             "line": 11,
             "match": {
@@ -414,7 +414,7 @@
             "name": "the mini cart should show correct total price",
             "result": {
               "status": "passed",
-              "duration": 50634700
+              "duration": 28465700
             },
             "line": 12,
             "match": {
@@ -426,7 +426,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 842032700
+              "duration": 4195506000
             },
             "hidden": true,
             "match": {
@@ -460,7 +460,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 7764259900
+              "duration": 1634350400
             },
             "line": 7,
             "match": {
@@ -473,7 +473,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 9652785100
+              "duration": 6207710000
             },
             "line": 8,
             "match": {
@@ -486,7 +486,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15814272400
+              "duration": 15278431700
             },
             "line": 9,
             "match": {
@@ -499,7 +499,7 @@
             "name": "I added some product in cart",
             "result": {
               "status": "passed",
-              "duration": 9973126400
+              "duration": 8176375800
             },
             "line": 12,
             "match": {
@@ -512,7 +512,7 @@
             "name": "I click on the shopping cart",
             "result": {
               "status": "passed",
-              "duration": 5318032900
+              "duration": 5161763300
             },
             "line": 13,
             "match": {
@@ -525,7 +525,7 @@
             "name": "I click on töm varukorg button",
             "result": {
               "status": "passed",
-              "duration": 5184541400
+              "duration": 5123244200
             },
             "line": 14,
             "match": {
@@ -538,7 +538,7 @@
             "name": "The cart should be empty",
             "result": {
               "status": "passed",
-              "duration": 5399113400
+              "duration": 5129569300
             },
             "line": 15,
             "match": {
@@ -550,7 +550,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 734129200
+              "duration": 4157551700
             },
             "hidden": true,
             "match": {
@@ -584,7 +584,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 10750163600
+              "duration": 1430703600
             },
             "line": 6,
             "match": {
@@ -597,7 +597,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6266339700
+              "duration": 6148503200
             },
             "line": 7,
             "match": {
@@ -610,7 +610,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 15902403900
+              "duration": 15270101800
             },
             "line": 8,
             "match": {
@@ -623,7 +623,7 @@
             "name": "I added some product in cart",
             "result": {
               "status": "passed",
-              "duration": 9877396000
+              "duration": 8052692800
             },
             "line": 9,
             "match": {
@@ -636,7 +636,7 @@
             "name": "I click on the shopping cart",
             "result": {
               "status": "passed",
-              "duration": 5572699000
+              "duration": 5168405300
             },
             "line": 11,
             "match": {
@@ -649,7 +649,7 @@
             "name": "the product should be removed after clicking - button",
             "result": {
               "status": "passed",
-              "duration": 5200439300
+              "duration": 5108770100
             },
             "line": 12,
             "match": {
@@ -661,7 +661,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 668327800
+              "duration": 4145965400
             },
             "hidden": true,
             "match": {
@@ -695,7 +695,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 10271581900
+              "duration": 1356719600
             },
             "line": 5,
             "match": {
@@ -708,7 +708,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 11348366700
+              "duration": 6258850600
             },
             "line": 6,
             "match": {
@@ -721,7 +721,7 @@
             "name": "I click on hitta butik",
             "result": {
               "status": "passed",
-              "duration": 7597405900
+              "duration": 5693659400
             },
             "line": 9,
             "match": {
@@ -734,7 +734,7 @@
             "name": "I search \"41717\" in the search bar",
             "result": {
               "status": "passed",
-              "duration": 5528182800
+              "duration": 5104318600
             },
             "line": 10,
             "match": {
@@ -747,7 +747,7 @@
             "name": "I should get the butik address",
             "result": {
               "status": "passed",
-              "duration": 21025000
+              "duration": 18277700
             },
             "line": 11,
             "match": {
@@ -759,7 +759,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 695667800
+              "duration": 4162522200
             },
             "hidden": true,
             "match": {
@@ -782,7 +782,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 8133654500
+              "duration": 1461075700
             },
             "line": 5,
             "match": {
@@ -795,7 +795,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 9199598500
+              "duration": 6065972200
             },
             "line": 6,
             "match": {
@@ -808,7 +808,7 @@
             "name": "I click on hitta butik",
             "result": {
               "status": "passed",
-              "duration": 7215887900
+              "duration": 5704557200
             },
             "line": 9,
             "match": {
@@ -821,7 +821,7 @@
             "name": "I search \"41831\" in the search bar",
             "result": {
               "status": "passed",
-              "duration": 5311274500
+              "duration": 5115002800
             },
             "line": 10,
             "match": {
@@ -834,7 +834,7 @@
             "name": "I should get the butik address",
             "result": {
               "status": "passed",
-              "duration": 24342800
+              "duration": 18170800
             },
             "line": 11,
             "match": {
@@ -846,7 +846,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 756937800
+              "duration": 4156173800
             },
             "hidden": true,
             "match": {
@@ -869,7 +869,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 7475592200
+              "duration": 1392876300
             },
             "line": 5,
             "match": {
@@ -882,7 +882,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 10619804800
+              "duration": 6188235300
             },
             "line": 6,
             "match": {
@@ -895,7 +895,7 @@
             "name": "I click on hitta butik",
             "result": {
               "status": "passed",
-              "duration": 7307398600
+              "duration": 5656571400
             },
             "line": 9,
             "match": {
@@ -908,7 +908,7 @@
             "name": "I search \"Gamlestaden\" in the search bar",
             "result": {
               "status": "passed",
-              "duration": 5306497000
+              "duration": 5163086500
             },
             "line": 10,
             "match": {
@@ -921,7 +921,7 @@
             "name": "I should get the butik address",
             "result": {
               "status": "passed",
-              "duration": 21233500
+              "duration": 17320500
             },
             "line": 11,
             "match": {
@@ -933,7 +933,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 713027800
+              "duration": 4153746300
             },
             "hidden": true,
             "match": {
@@ -956,7 +956,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 7102495500
+              "duration": 1343125100
             },
             "line": 5,
             "match": {
@@ -969,7 +969,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 10741427000
+              "duration": 6202595100
             },
             "line": 6,
             "match": {
@@ -982,7 +982,7 @@
             "name": "I click on hitta butik",
             "result": {
               "status": "passed",
-              "duration": 7179899100
+              "duration": 5769157800
             },
             "line": 9,
             "match": {
@@ -995,7 +995,7 @@
             "name": "I search \"Majorna\" in the search bar",
             "result": {
               "status": "passed",
-              "duration": 5362762500
+              "duration": 5118430800
             },
             "line": 10,
             "match": {
@@ -1008,7 +1008,7 @@
             "name": "I should get the butik address",
             "result": {
               "status": "passed",
-              "duration": 39640900
+              "duration": 16094600
             },
             "line": 11,
             "match": {
@@ -1020,7 +1020,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 681272600
+              "duration": 4173239700
             },
             "hidden": true,
             "match": {
@@ -1054,7 +1054,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 6685816100
+              "duration": 1419163900
             },
             "line": 7,
             "match": {
@@ -1067,7 +1067,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 9702604700
+              "duration": 6029865100
             },
             "line": 8,
             "match": {
@@ -1080,7 +1080,7 @@
             "name": "I search for \"Apelsinjuice\" in the search box",
             "result": {
               "status": "passed",
-              "duration": 7030510800
+              "duration": 5332927500
             },
             "line": 11,
             "match": {
@@ -1093,7 +1093,7 @@
             "name": "I press ENTER",
             "result": {
               "status": "passed",
-              "duration": 5321702000
+              "duration": 5057827800
             },
             "line": 12,
             "match": {
@@ -1106,7 +1106,7 @@
             "name": "I should get some search result",
             "result": {
               "status": "passed",
-              "duration": 9982260800
+              "duration": 14262400
             },
             "line": 13,
             "match": {
@@ -1119,7 +1119,7 @@
             "name": "I click on first search result",
             "result": {
               "status": "passed",
-              "duration": 10886786100
+              "duration": 5348585200
             },
             "line": 14,
             "match": {
@@ -1132,7 +1132,7 @@
             "name": "I should get more information about that product",
             "result": {
               "status": "passed",
-              "duration": 5030617300
+              "duration": 5032548800
             },
             "line": 15,
             "match": {
@@ -1144,7 +1144,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 598097500
+              "duration": 4168073800
             },
             "hidden": true,
             "match": {
@@ -1167,7 +1167,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 5236539000
+              "duration": 1299147200
             },
             "line": 7,
             "match": {
@@ -1180,7 +1180,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 8521948700
+              "duration": 6100191600
             },
             "line": 8,
             "match": {
@@ -1193,7 +1193,7 @@
             "name": "I search for \"godis\" in the search box",
             "result": {
               "status": "passed",
-              "duration": 5687112600
+              "duration": 5187154400
             },
             "line": 11,
             "match": {
@@ -1206,7 +1206,7 @@
             "name": "I press ENTER",
             "result": {
               "status": "passed",
-              "duration": 5084729700
+              "duration": 5053503600
             },
             "line": 12,
             "match": {
@@ -1219,7 +1219,7 @@
             "name": "I should get some search result",
             "result": {
               "status": "passed",
-              "duration": 118336700
+              "duration": 12731800
             },
             "line": 13,
             "match": {
@@ -1232,7 +1232,7 @@
             "name": "I click on first search result",
             "result": {
               "status": "passed",
-              "duration": 6487669600
+              "duration": 5363371700
             },
             "line": 14,
             "match": {
@@ -1245,7 +1245,7 @@
             "name": "I should get more information about that product",
             "result": {
               "status": "passed",
-              "duration": 5025854000
+              "duration": 5025389000
             },
             "line": 15,
             "match": {
@@ -1257,7 +1257,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 683966000
+              "duration": 4199837800
             },
             "hidden": true,
             "match": {
@@ -1280,7 +1280,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 10684758800
+              "duration": 1397607000
             },
             "line": 7,
             "match": {
@@ -1293,7 +1293,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6280223200
+              "duration": 6013167000
             },
             "line": 8,
             "match": {
@@ -1306,7 +1306,7 @@
             "name": "I search for \"banan\" in the search box",
             "result": {
               "status": "passed",
-              "duration": 5591097800
+              "duration": 5176272700
             },
             "line": 11,
             "match": {
@@ -1319,7 +1319,7 @@
             "name": "I press ENTER",
             "result": {
               "status": "passed",
-              "duration": 5095696100
+              "duration": 5063244800
             },
             "line": 12,
             "match": {
@@ -1332,7 +1332,7 @@
             "name": "I should get some search result",
             "result": {
               "status": "passed",
-              "duration": 755088400
+              "duration": 12178400
             },
             "line": 13,
             "match": {
@@ -1345,7 +1345,7 @@
             "name": "I click on first search result",
             "result": {
               "status": "passed",
-              "duration": 6968593500
+              "duration": 5348768800
             },
             "line": 14,
             "match": {
@@ -1358,7 +1358,7 @@
             "name": "I should get more information about that product",
             "result": {
               "status": "passed",
-              "duration": 5033893800
+              "duration": 5018456000
             },
             "line": 15,
             "match": {
@@ -1370,7 +1370,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 755142700
+              "duration": 4190381800
             },
             "hidden": true,
             "match": {
@@ -1393,7 +1393,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 10268917300
+              "duration": 1393854100
             },
             "line": 7,
             "match": {
@@ -1406,7 +1406,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6363150600
+              "duration": 6049809400
             },
             "line": 8,
             "match": {
@@ -1419,7 +1419,7 @@
             "name": "I search for \"smör\" in the search box",
             "result": {
               "status": "passed",
-              "duration": 5450545600
+              "duration": 5176648900
             },
             "line": 11,
             "match": {
@@ -1432,7 +1432,7 @@
             "name": "I press ENTER",
             "result": {
               "status": "passed",
-              "duration": 5076889300
+              "duration": 5048108900
             },
             "line": 12,
             "match": {
@@ -1445,7 +1445,7 @@
             "name": "I should get some search result",
             "result": {
               "status": "passed",
-              "duration": 68167900
+              "duration": 12100600
             },
             "line": 13,
             "match": {
@@ -1458,7 +1458,7 @@
             "name": "I click on first search result",
             "result": {
               "status": "passed",
-              "duration": 6281683700
+              "duration": 5312981100
             },
             "line": 14,
             "match": {
@@ -1471,7 +1471,7 @@
             "name": "I should get more information about that product",
             "result": {
               "status": "passed",
-              "duration": 5020860700
+              "duration": 5020489200
             },
             "line": 15,
             "match": {
@@ -1483,7 +1483,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 787910500
+              "duration": 4167093100
             },
             "hidden": true,
             "match": {
@@ -1517,7 +1517,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 6985706300
+              "duration": 1485914800
             },
             "line": 5,
             "match": {
@@ -1530,7 +1530,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 9827223100
+              "duration": 6190815200
             },
             "line": 6,
             "match": {
@@ -1543,7 +1543,7 @@
             "name": "that we have been through the initial where to deliver popup",
             "result": {
               "status": "passed",
-              "duration": 16054939300
+              "duration": 15308076100
             },
             "line": 7,
             "match": {
@@ -1556,7 +1556,7 @@
             "name": "I added some product in cart",
             "result": {
               "status": "passed",
-              "duration": 9551121900
+              "duration": 7992530800
             },
             "line": 10,
             "match": {
@@ -1569,7 +1569,7 @@
             "name": "I click on cart",
             "result": {
               "status": "passed",
-              "duration": 5936578400
+              "duration": 5751091700
             },
             "line": 11,
             "match": {
@@ -1582,7 +1582,7 @@
             "name": "I should be able to see the products which i added in the cart",
             "result": {
               "status": "passed",
-              "duration": 5043693600
+              "duration": 5027264600
             },
             "line": 12,
             "match": {
@@ -1594,7 +1594,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 712628300
+              "duration": 4160081100
             },
             "hidden": true,
             "match": {
@@ -1628,7 +1628,7 @@
             "name": "that I am on \"https://www.willys.se\"",
             "result": {
               "status": "passed",
-              "duration": 10832239700
+              "duration": 1496888300
             },
             "line": 5,
             "match": {
@@ -1641,7 +1641,7 @@
             "name": "that I accepted the standard cookie policy",
             "result": {
               "status": "passed",
-              "duration": 6326588000
+              "duration": 6096786200
             },
             "line": 6,
             "match": {
@@ -1654,7 +1654,7 @@
             "name": "I click on MENY button",
             "result": {
               "status": "passed",
-              "duration": 10354238900
+              "duration": 10122588600
             },
             "line": 9,
             "match": {
@@ -1667,7 +1667,7 @@
             "name": "I can see sortiment",
             "result": {
               "status": "passed",
-              "duration": 10058983400
+              "duration": 10039612400
             },
             "line": 10,
             "match": {
@@ -1680,7 +1680,7 @@
             "name": "I click on Barn",
             "result": {
               "status": "passed",
-              "duration": 7885129800
+              "duration": 6499303100
             },
             "line": 11,
             "match": {
@@ -1693,7 +1693,7 @@
             "name": "I should get all the categories",
             "result": {
               "status": "passed",
-              "duration": 5328284700
+              "duration": 5046702600
             },
             "line": 12,
             "match": {
@@ -1706,7 +1706,7 @@
             "name": "I click on grot",
             "result": {
               "status": "passed",
-              "duration": 10511684300
+              "duration": 10204676100
             },
             "line": 13,
             "match": {
@@ -1719,7 +1719,7 @@
             "name": "the result should contain at least one sortiment",
             "result": {
               "status": "passed",
-              "duration": 6296520900
+              "duration": 5581698900
             },
             "line": 14,
             "match": {
@@ -1731,7 +1731,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 754484200
+              "duration": 4177210200
             },
             "hidden": true,
             "match": {

@@ -5,15 +5,15 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/add-product-in-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="9.3325089">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="3.5903207">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="8.5813864">
+        <testcase name="When that I accepted the standard cookie policy" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="6.4375169">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="15.520396">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="15.3049326">
         </testcase>
-        <testcase name="Then I click on + button to add the first product from veckans varor" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="0.8595362">
+        <testcase name="Then I click on + button to add the first product from veckans varor" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="0.3599297">
         </testcase>
-        <testcase name="And I added several copy of this product" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="21.3114354">
+        <testcase name="And I added several copy of this product" classname="add-one-to-several-product-copies-in-the-shopping-cart;add-1st-product-to-the-shopping-cart" time="5.2514528">
         </testcase>
     </testsuite>
     <testsuite name="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" tests="7" failures="0" skipped="0">
@@ -21,19 +21,19 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/change-quantity.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="10.3095932">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="1.4452834">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="6.3421073">
+        <testcase name="When that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="6.1747391">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="16.106423">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="15.2762003">
         </testcase>
-        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="7.3423061">
+        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="3.5153213">
         </testcase>
-        <testcase name="When I added random number of each product that has price per piece in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="4.4520347">
+        <testcase name="When I added random number of each product that has price per piece in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="7.0946231">
         </testcase>
-        <testcase name="And I click on cart button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="5.3962855">
+        <testcase name="And I click on cart button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="5.1641786">
         </testcase>
-        <testcase name="Then the quantity should increase after clicking + button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="5.342483">
+        <testcase name="Then the quantity should increase after clicking + button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;increase-product-quantity" time="5.1356588">
         </testcase>
     </testsuite>
     <testsuite name="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" tests="7" failures="0" skipped="0">
@@ -41,19 +41,19 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/change-quantity.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="11.4821967">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="1.5768283">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="6.1969248">
+        <testcase name="When that I accepted the standard cookie policy" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="6.0027185">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="15.9295994">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="15.3092762">
         </testcase>
-        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="7.1327741">
+        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="3.3397446">
         </testcase>
-        <testcase name="When I added random number of each product that has price per piece in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="11.6329992">
+        <testcase name="When I added random number of each product that has price per piece in the cart" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="6.7718638">
         </testcase>
-        <testcase name="And I click on cart button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="5.4316113">
+        <testcase name="And I click on cart button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="5.1651168">
         </testcase>
-        <testcase name="Then the quantity should decrease after clicking - button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="5.2385515">
+        <testcase name="Then the quantity should decrease after clicking - button" classname="changing-the-quantity-in-the-cart-to-increase-and-decrease;decrease-product-quantity" time="5.1388051">
         </testcase>
     </testsuite>
     <testsuite name="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" tests="6" failures="0" skipped="0">
@@ -61,17 +61,17 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/count-price.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.9381052">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="1.6315907">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="10.1464104">
+        <testcase name="When that I accepted the standard cookie policy" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.2855522">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="16.0178917">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="15.2993598">
         </testcase>
-        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="7.3468468">
+        <testcase name="Given that I navigate to glass-godis-och-snacks category page" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="3.475785">
         </testcase>
-        <testcase name="When I added random number of each product that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="6.2453419">
+        <testcase name="When I added random number of each product that has price per piece in the cart" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="2.3337834">
         </testcase>
-        <testcase name="Then the mini cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0506347">
+        <testcase name="Then the mini cart should show correct total price" classname="count-total-price-in-shopping-cart;count-total-price-correctly-in-shopping-cart" time="0.0284657">
         </testcase>
     </testsuite>
     <testsuite name="empty-entire-shopping-cart;empty-my-shopping-cart" tests="7" failures="0" skipped="0">
@@ -79,19 +79,19 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/empty-entire-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="7.7642599">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="1.6343504">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="9.6527851">
+        <testcase name="When that I accepted the standard cookie policy" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="6.20771">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="15.8142724">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="15.2784317">
         </testcase>
-        <testcase name="When I added some product in cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="9.9731264">
+        <testcase name="When I added some product in cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="8.1763758">
         </testcase>
-        <testcase name="And I click on the shopping cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.3180329">
+        <testcase name="And I click on the shopping cart" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.1617633">
         </testcase>
-        <testcase name="And I click on töm varukorg button" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.1845414">
+        <testcase name="And I click on töm varukorg button" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.1232442">
         </testcase>
-        <testcase name="Then The cart should be empty" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.3991134">
+        <testcase name="Then The cart should be empty" classname="empty-entire-shopping-cart;empty-my-shopping-cart" time="5.1295693">
         </testcase>
     </testsuite>
     <testsuite name="remove-item-from-shopping-cart;remove-item-from-shopping-cart" tests="6" failures="0" skipped="0">
@@ -99,33 +99,17 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/remove-product-from-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="10.7501636">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="1.4307036">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="6.2663397">
+        <testcase name="When that I accepted the standard cookie policy" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="6.1485032">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="15.9024039">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="15.2701018">
         </testcase>
-        <testcase name="And I added some product in cart" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="9.877396">
+        <testcase name="And I added some product in cart" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="8.0526928">
         </testcase>
-        <testcase name="When I click on the shopping cart" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="5.572699">
+        <testcase name="When I click on the shopping cart" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="5.1684053">
         </testcase>
-        <testcase name="Then the product should be removed after clicking - button" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="5.2004393">
-        </testcase>
-    </testsuite>
-    <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-butik.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="10.2715819">
-        </testcase>
-        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="11.3483667">
-        </testcase>
-        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="7.5974059">
-        </testcase>
-        <testcase name="And I search &quot;41717&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.5281828">
-        </testcase>
-        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.021025">
+        <testcase name="Then the product should be removed after clicking - button" classname="remove-item-from-shopping-cart;remove-item-from-shopping-cart" time="5.1087701">
         </testcase>
     </testsuite>
     <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="5" failures="0" skipped="0">
@@ -133,31 +117,15 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-butik.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="8.1336545">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="1.3567196">
         </testcase>
-        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="9.1995985">
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="6.2588506">
         </testcase>
-        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="7.2158879">
+        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.6936594">
         </testcase>
-        <testcase name="And I search &quot;41831&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.3112745">
+        <testcase name="And I search &quot;41717&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.1043186">
         </testcase>
-        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.0243428">
-        </testcase>
-    </testsuite>
-    <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="5" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-butik.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="7.4755922">
-        </testcase>
-        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="10.6198048">
-        </testcase>
-        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="7.3073986">
-        </testcase>
-        <testcase name="And I search &quot;Gamlestaden&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.306497">
-        </testcase>
-        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.0212335">
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.0182777">
         </testcase>
     </testsuite>
     <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="5" failures="0" skipped="0">
@@ -165,15 +133,47 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-butik.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="7.1024955">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="1.4610757">
         </testcase>
-        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="10.741427">
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="6.0659722">
         </testcase>
-        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="7.1798991">
+        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.7045572">
         </testcase>
-        <testcase name="And I search &quot;Majorna&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.3627625">
+        <testcase name="And I search &quot;41831&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.1150028">
         </testcase>
-        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.0396409">
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.0181708">
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-butik.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="1.3928763">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="6.1882353">
+        </testcase>
+        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.6565714">
+        </testcase>
+        <testcase name="And I search &quot;Gamlestaden&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.1630865">
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.0173205">
+        </testcase>
+    </testsuite>
+    <testsuite name="search-for-butik;searching-nearest-butik-with-pincode" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-butik.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="search-for-butik;searching-nearest-butik-with-pincode" time="1.3431251">
+        </testcase>
+        <testcase name="And that I accepted the standard cookie policy" classname="search-for-butik;searching-nearest-butik-with-pincode" time="6.2025951">
+        </testcase>
+        <testcase name="When I click on hitta butik" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.7691578">
+        </testcase>
+        <testcase name="And I search &quot;Majorna&quot; in the search bar" classname="search-for-butik;searching-nearest-butik-with-pincode" time="5.1184308">
+        </testcase>
+        <testcase name="Then I should get the butik address" classname="search-for-butik;searching-nearest-butik-with-pincode" time="0.0160946">
         </testcase>
     </testsuite>
     <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
@@ -181,39 +181,19 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-product.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.6858161">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="1.4191639">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="9.7026047">
+        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.0298651">
         </testcase>
-        <testcase name="When I search for &quot;Apelsinjuice&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="7.0305108">
+        <testcase name="When I search for &quot;Apelsinjuice&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.3329275">
         </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.321702">
+        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0578278">
         </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="9.9822608">
+        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.0142624">
         </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="10.8867861">
+        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.3485852">
         </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0306173">
-        </testcase>
-    </testsuite>
-    <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
-        <properties>
-            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-product.feature">
-            </property>
-        </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.236539">
-        </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="8.5219487">
-        </testcase>
-        <testcase name="When I search for &quot;godis&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.6871126">
-        </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0847297">
-        </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.1183367">
-        </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.4876696">
-        </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.025854">
+        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0325488">
         </testcase>
     </testsuite>
     <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
@@ -221,19 +201,19 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-product.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="10.6847588">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="1.2991472">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.2802232">
+        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.1001916">
         </testcase>
-        <testcase name="When I search for &quot;banan&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.5910978">
+        <testcase name="When I search for &quot;godis&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.1871544">
         </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0956961">
+        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0535036">
         </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.7550884">
+        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.0127318">
         </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.9685935">
+        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.3633717">
         </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0338938">
+        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.025389">
         </testcase>
     </testsuite>
     <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
@@ -241,19 +221,39 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-product.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="10.2689173">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="1.397607">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.3631506">
+        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.013167">
         </testcase>
-        <testcase name="When I search for &quot;smör&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.4505456">
+        <testcase name="When I search for &quot;banan&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.1762727">
         </testcase>
-        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0768893">
+        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0632448">
         </testcase>
-        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.0681679">
+        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.0121784">
         </testcase>
-        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.2816837">
+        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.3487688">
         </testcase>
-        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0208607">
+        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.018456">
+        </testcase>
+    </testsuite>
+    <testsuite name="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/search-product.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="1.3938541">
+        </testcase>
+        <testcase name="When that I accepted the standard cookie policy" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="6.0498094">
+        </testcase>
+        <testcase name="When I search for &quot;smör&quot; in the search box" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.1766489">
+        </testcase>
+        <testcase name="And I press ENTER" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0481089">
+        </testcase>
+        <testcase name="Then I should get some search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="0.0121006">
+        </testcase>
+        <testcase name="And I click on first search result" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.3129811">
+        </testcase>
+        <testcase name="And I should get more information about that product" classname="willys-search-for-product-of-interest;searching-product-in-search-bar-for-getting-more-information-about-the-product-of-interest" time="5.0204892">
         </testcase>
     </testsuite>
     <testsuite name="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" tests="6" failures="0" skipped="0">
@@ -261,17 +261,17 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/viewing-cart.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="6.9857063">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="1.4859148">
         </testcase>
-        <testcase name="When that I accepted the standard cookie policy" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="9.8272231">
+        <testcase name="When that I accepted the standard cookie policy" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="6.1908152">
         </testcase>
-        <testcase name="And that we have been through the initial where to deliver popup" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="16.0549393">
+        <testcase name="And that we have been through the initial where to deliver popup" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="15.3080761">
         </testcase>
-        <testcase name="When I added some product in cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="9.5511219">
+        <testcase name="When I added some product in cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="7.9925308">
         </testcase>
-        <testcase name="And I click on cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="5.9365784">
+        <testcase name="And I click on cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="5.7510917">
         </testcase>
-        <testcase name="Then I should be able to see the products which i added in the cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="5.0436936">
+        <testcase name="Then I should be able to see the products which i added in the cart" classname="viewing-the-added-products-in-shopping-cart;to-check-if-product-is-added-in-the-cart" time="5.0272646">
         </testcase>
     </testsuite>
     <testsuite name="willys-navigate-to-sortiment;willys-searching-for-sortiment" tests="8" failures="0" skipped="0">
@@ -279,21 +279,21 @@
             <property name="URI" value="D:/Testing 1/Programming for tester/Inlamning 3/System-Testing-using-BDD-Project/features/viewing-sortiment.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.8322397">
+        <testcase name="Given that I am on &quot;https://www.willys.se&quot;" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="1.4968883">
         </testcase>
-        <testcase name="And that I accepted the standard cookie policy" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="6.326588">
+        <testcase name="And that I accepted the standard cookie policy" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="6.0967862">
         </testcase>
-        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.3542389">
+        <testcase name="When I click on MENY button" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.1225886">
         </testcase>
-        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.0589834">
+        <testcase name="Then I can see sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.0396124">
         </testcase>
-        <testcase name="And I click on Barn" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="7.8851298">
+        <testcase name="And I click on Barn" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="6.4993031">
         </testcase>
-        <testcase name="Then I should get all the categories" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.3282847">
+        <testcase name="Then I should get all the categories" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.0467026">
         </testcase>
-        <testcase name="And I click on grot" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.5116843">
+        <testcase name="And I click on grot" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="10.2046761">
         </testcase>
-        <testcase name="And the result should contain at least one sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="6.2965209">
+        <testcase name="And the result should contain at least one sortiment" classname="willys-navigate-to-sortiment;willys-searching-for-sortiment" time="5.5816989">
         </testcase>
     </testsuite>
 </testsuites>
